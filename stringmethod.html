@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Method</title>
+</head>
+<body>
+    <script>
+        const string_value = " my name is Rajesh singh is "
+        document.write(`the length of string is ${string_value.length} <br>`)
+        // to find the position of string use indexOf or search
+        document.write(`the position of string is ${string_value.search("is")}<br>`)
+        // to find the position of last index is IndexOf
+        document.write(`the position of string is ${string_value.lastIndexOf("is")}<br>`)
+        // to change string in upperCase
+        document.write(` ${string_value.toUpperCase()} <br>`)
+        document.write(`${string_value.toLowerCase()} <br>`)
+
+        // replace the string with another string
+        document.write(` ${string_value.replace(/rajesh/i,"sunil")} <br>`)
+
+
+    </script>
+</body>
+</html>
